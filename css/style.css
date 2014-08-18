@@ -5,10 +5,12 @@
  
  
 .instruction {
+
 	margin-right: 10px;
-	position: fixed; /*font-weight: normal;*/
+	position: fixed;
 	top:340px;
-	width: 100px; }
+	width: 100px;
+ }
  
  
 .pix {
@@ -47,4 +49,5 @@
 	height: 400px;
 	position: absolute;
 	width: 180px;
+	transform: rotate(180deg);
  }
