@@ -1,11 +1,13 @@
 (function makeField(){
 	var screen = document.getElementsByClassName('screen-container')[0];
+	var fragment = document.createDocumentFragment();
 	for(var i=0;i<180;i++){
 		var div = document.createElement('div');
 	    div.setAttribute("class","pix");
 	    div.setAttribute("id","deactivated");
-	    screen.appendChild(div);
+	    fragment.appendChild(div);
 	}
+	screen.appendChild(fragment);
 })();
 window.divs = $(".screen-container div");
 
